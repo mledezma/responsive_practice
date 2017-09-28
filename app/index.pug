@@ -3,7 +3,9 @@ html
     include ./template/head.pug
     body
         header
-            include ./template/menu.pug
+            .hidden
+                include ./template/bg-menu.pug
+            include ./template/sm-menu.pug
         main
             include ./template/post.pug
             include ./template/related.pug

@@ -1,4 +1,54 @@
-h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+body,
+header,
+nav,
+main,
+footer,
+ul,
+li,
+a,
+div,
+img,
+p,
+article,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Alegreya, sans-serif"; }
+
+p,
+a {
+  font-family: "Comfortaa, sans-serif"; }
+
+.sm-menu {
+  border-bottom: 2px solid #000; }
+
+.logo {
+  float: left;
+  margin: 1.5% 0 0 3%;
+  width: 30%; }
+
+.menu-icon {
+  float: right;
+  margin: 2% 3%;
+  width: 15%; }
+
+.hidden {
+  display: none; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
