@@ -1,0 +1,27 @@
+img.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80%;
+}
+
+.author {
+    margin-bottom: 25px;
+    text-align: center;
+    
+    img {
+        vertical-align: top;
+    }
+
+    .info {
+        margin-bottom: 25px;
+        padding-left: 5%;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .desc {
+        margin-bottom: 15px;
+    }
+}

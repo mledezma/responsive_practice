@@ -1,8 +1,26 @@
 .hidden {
-    display: none;
+    display: none!important;
 }
 
 .clearfix {
     overflow: auto;
     zoom: 1;
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, 0.84);
+    left: 0;
+    height: 100vh;
+    position: absolute;    
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+}
+
+.logo-expanded {
+    top: 80vh;
+    left: 31%;
+    transform: translateX(-31%);
+    position: absolute;
+    z-index: 3;
 }

@@ -2,8 +2,9 @@ doctype html5
 html
     include ./template/head.pug
     body
+        .opacity.hidden
         header
-            .hidden
+            .hidden#menu.main-menu
                 include ./template/bg-menu.pug
             include ./template/sm-menu.pug
         main
@@ -11,3 +12,4 @@ html
             include ./template/related.pug
             include ./template/author.pug
         include ./template/footer.pug
+        script(src="js/main.js")

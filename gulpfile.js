@@ -30,9 +30,10 @@ gulp.task('watch', ['sass', 'pug'], function () {
     });
 
     gulp.watch('app/sass/**/*.scss', ['sass', browserSync.reload]);
+    gulp.watch('app/js/**/*.js', ['js', browserSync.reload]);
     gulp.watch('app/**/*.pug', ['pug']);
-    gulp.watch("./**/*.html").on('change', browserSync.reload);
-    gulp.watch("./js/**/*.js").on('change', browserSync.reload);
+    gulp.watch('./**/*.html').on('change', browserSync.reload);
+    gulp.watch('app/img/**/*.+(png|jpg|jpeg|gif|svg)', ['images', browserSync.reload])
 });
 
 gulp.task('js', function(){

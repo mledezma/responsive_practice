@@ -1,16 +1,18 @@
-header
+header.entry
     .banner
-        img(src="img/banner.jpg", alt="Banner Image")
-        .media
-            img(src="img/facebook.png", alt="Facebook logo")
-            img(src="img/twitter.png", alt="Twitter Logo")
-            img(src="img/pinterest.png", alt="Pinterest In Logo")
-    h1.title Lorem, ipsum dolor.
-    h3.author Marco Ledezma Cordero
-    h3.date 12/12/2017
+        .image-ratio
+            img(src="img/banner.jpg", alt="Banner Image")
+        .media.col-1of2
+            img.col-1of3(src="img/facebook-banner.png", alt="Facebook logo")
+            img.col-1of3(src="img/twitter-banner.png", alt="Twitter Logo")
+            img.col-1of3(src="img/pinterest-banner.png", alt="Pinterest In Logo")
+    .container
+        h1.title Lorem, ipsum dolor.
+        h3 Marco Ledezma Cordero
+        h3.date 12/12/2017
     .ads
-.content
+.content.container
     p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi magnam sed sequi voluptatibus impedit ullam eaque cumque sunt laudantium! Magnam maxime atque placeat consequuntur nesciunt! Eos, aspernatur accusantium sunt blanditiis excepturi iusto architecto alias, cumque mollitia dignissimos quam ab? Architecto?
     img(src="img/content.jpg", alt="Image for content")
     p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugit nesciunt obcaecati?
-.ads.ads
+.ads

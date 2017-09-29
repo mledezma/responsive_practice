@@ -1,0 +1,38 @@
+.banner {
+  position: relative;
+  margin-bottom: 10px; }
+  .banner .media {
+    bottom: 5%;
+    position: absolute;
+    right: 0;
+    text-align: center; }
+
+.entry {
+  margin-bottom: 30px; }
+
+.image-ratio {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 47%;
+  position: relative;
+  width: 100%; }
+  .image-ratio img {
+    bottom: 0;
+    display: block;
+    left: 0;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%; }
+
+.content {
+  margin-bottom: 25px; }
+  .content img {
+    margin: 15px 0;
+    width: 100%; }

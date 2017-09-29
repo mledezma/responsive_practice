@@ -1,0 +1,29 @@
+article {
+    margin-bottom: 15px;
+
+    & > div {
+        vertical-align: top;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+.related {
+    margin-bottom: 35px;
+    
+    .title {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .more {
+        display: block;
+        padding-top: 10px;
+    }
+}
+
+.more-container {
+    padding-left: 2%;
+}
