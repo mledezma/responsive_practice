@@ -1,18 +1,35 @@
-
 .sm-menu {
     border-bottom: 2px solid #000;
 }
 
 .logo {
+    cursor: pointer;
     float: left;
-    margin: 1.5% 0 0 3%;
-    width: 30%;
+    margin: 1.5% 0 1.5% 3%;
+    width: 90px;
+
+    @media screen and (min-width: 600px){
+        width: 110px;
+    }
+
+    @media screen and (min-width: 1000px){
+        width: 150px;
+    }
 }
 
 .menu-icon {
     float: right;   
     margin: 2% 3%; 
-    width: 15%;
+    width: 50px;
+
+    @media screen and (min-width: 600px){
+        margin: 2% 5%; 
+        width: 60px;
+    }
+
+    @media screen and (min-width: 800px){
+        display: none;
+    }
 }
 
 .main-menu {

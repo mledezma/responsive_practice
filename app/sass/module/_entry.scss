@@ -4,9 +4,14 @@
 
     .media {
         bottom: 0;
+        cursor: pointer;
         position: absolute;
         right: 0;
         text-align: center;
+
+        @media screen and (min-width: 1500px) {
+            text-align: right;
+        }
     }
 }
 
@@ -32,7 +37,7 @@
         max-height: 100%;
         position: absolute;
         right: 0;
-        top: 0;
+        top: -10px;
         width: 100%;
     }
 }
@@ -43,5 +48,11 @@
     img {
         margin: 15px 0;
         width: 100%;
+    }
+
+    @media screen and (min-width: 800px) {
+        display: block;
+        margin: 0 auto 50px;
+        width: 80%;
     }
 }

@@ -8,6 +8,20 @@ article {
     img{
         width: 100%;
     }
+
+    @media screen and (min-width:700px) {
+        box-sizing: border-box;
+        display: inline-block;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    @media screen and (min-width:1350px) {
+        box-sizing: border-box;
+        display: inline-block;
+        margin-bottom: 0;
+        width: 33%;
+    }
 }
 
 .related {

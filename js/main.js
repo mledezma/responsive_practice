@@ -1,4 +1,5 @@
 var app = (function(){
+    console.log('hi');
     var btnMenu = document.querySelector('#btnMenu');
     var menu = document.querySelector('#menu');
     var opacity = document.querySelector('.opacity');
