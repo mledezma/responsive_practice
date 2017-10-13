@@ -1,20 +1,25 @@
 header.entry
     .banner
         .image-ratio
-            img(src="img/banner.jpg", alt="Banner Image")
+            picture
+                source(media="(min-width: 800px)" srcset="img/banner-md.jpg")
+                source(media="(min-width: 1100px)" srcset="img/banner-bg.jpg")
+                img(src="img/banner-sm.jpg", alt="Banner Image")
         .media.col-1of2
-            img.col-1of3(src="img/facebook-banner.png", alt="Facebook logo")
-            img.col-1of3(src="img/twitter-banner.png", alt="Twitter Logo")
-            img.col-1of3(src="img/pinterest-banner.png", alt="Pinterest In Logo")
+            img.col-1of3(src="img/facebook-banner.svg", alt="Facebook logo")
+            img.col-1of3(src="img/twitter-banner.svg", alt="Twitter Logo")
+            img.col-1of3(src="img/pinterest-banner.svg", alt="Pinterest In Logo")
     .container
         h1.title Lorem, ipsum dolor.
         h3 Marco Ledezma Cordero
         h3.date 12/12/2017
     .ads.container
-        img(src="img/ad1s.jpg", alt="Ad 1")
+        img(src="img/ads-yoda.jpg", alt="Ad 1")
 .content.container
     p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi magnam sed sequi voluptatibus impedit ullam eaque cumque sunt laudantium! Magnam maxime atque placeat consequuntur nesciunt! Eos, aspernatur accusantium sunt blanditiis excepturi iusto architecto alias, cumque mollitia dignissimos quam ab? Architecto?
-    img(src="img/content.jpg", alt="Image for content")
+    picture
+        source(media="(min-width: 800px)" srcset="img/content-bg.jpg")
+        img(src="img/content-sm.jpg", alt="Content Image")
     p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugit nesciunt obcaecati?
 .ads.container
-    img(src="img/ad2s.png", alt="Ad 2")
+    img(src="img/ads-marketing.png", alt="Ad 2")
