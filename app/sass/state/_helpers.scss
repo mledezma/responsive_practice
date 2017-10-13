@@ -24,3 +24,20 @@
     position: absolute;
     z-index: 3;
 }
+
+.menu-fixed {
+    background-color: rgba(255,255,255,0.9);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+    li a {
+        padding-top: 45px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}

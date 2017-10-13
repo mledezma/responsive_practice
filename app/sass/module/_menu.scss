@@ -1,5 +1,8 @@
 .sm-menu {
     border-bottom: 2px solid #000;
+    @media screen and (min-width: 800px) {
+        text-align: right;
+    }
 }
 
 .logo {
@@ -44,6 +47,12 @@
 
     li {
         border-bottom: 1px solid #000;
+
+        @media screen and (min-width: 800px) {
+            border-bottom: none;
+            display: inline-block;
+            margin-right: 25px;
+        }
     }
 
     li:first-child {
@@ -53,12 +62,40 @@
         a:first-child {
             padding-top: 10%;       
         }
+
+        @media screen and (min-width: 800px) {
+            border-bottom: none;
+            border-top: none;
+        }
     }
 
     a {
         display: block;
         padding-bottom: 10%; 
         padding-left: 4%;
+
+        @media screen and (min-width: 800px) {
+            padding-bottom: 0;
+            padding-top: 35px;
+        }
+
+        @media screen and (min-width: 1000px) {
+            padding-top: 50px;
+        }
+
+        @media screen and (min-width: 1600px) {
+            padding-top: 60px;
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        background-color: transparent;
+        display: inline-block;
+        height: auto;
+        padding-top: 0; 
+        position: initial;
+        text-align: right;
+        width: auto;
     }
 
 }
@@ -71,4 +108,7 @@
     li:last-child{
         margin-bottom: 0;
     }
+    @media screen and (min-width: 800px) {
+        padding-right: 50px;
+    } 
 }
