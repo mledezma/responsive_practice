@@ -1,0 +1,12 @@
+.ads {
+    margin-top: 20px;
+    text-align: center;
+
+    img {
+        width: 100%;  
+
+        @media screen and (min-width: 800px) {
+            width: 40%;            
+        }
+    }
+}

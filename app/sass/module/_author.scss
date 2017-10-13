@@ -1,7 +1,7 @@
 img.circle {
     border-radius: 50%;
     overflow: hidden;
-    width: 80%;
+    width: 60%;
     
     @media screen and (min-width: 1350px) {
         width: 45%;
@@ -9,7 +9,7 @@ img.circle {
 }
 
 .author {
-    margin-bottom: 25px;
+    margin: 25px 0 50px;
     text-align: center;
     
     img {
